@@ -1,0 +1,20 @@
+# Sourced from Kyshawn's Weekly Home Check newsletter (Home@weeklyhomecheck.com),
+# full 52-week archive extracted from Brady's Gmail on 2026-07-23.
+items:
+  - itemType: gfci-test
+    name: >-
+      Test GFCI outlets — Weekly Home Check, Week 28: locate outlets with
+      Test/Reset buttons (kitchens, bathrooms, laundry, garage, outdoor
+      areas), plug in a GFCI tester and press Test (Reset should pop out),
+      confirm power is off with a voltage tester, press Reset to restore
+      power and retest. No explicit interval stated; annual matches its
+      once-per-year newsletter slot.
+    intervalMonths: 12
+  - itemType: panel-inspection
+    name: >-
+      Inspect electrical panel — Weekly Home Check, Week 28: visually
+      inspect for wear/damage/corrosion/discoloration, check for loose
+      wires without touching, test each breaker off/on, label each
+      breaker. Newsletter recommends a professional inspection "every 1-2
+      years."
+    intervalMonths: 18

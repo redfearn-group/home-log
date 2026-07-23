@@ -1,0 +1,6 @@
+tasks:
+  - id: 1
+    title: Confirm garage door brand/model and install date
+    notes: Added 2026-07-23
+    status: open
+    createdDate: '2026-07-23'

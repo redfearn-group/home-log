@@ -1,0 +1,32 @@
+# Sourced from Kyshawn's Weekly Home Check newsletter (Home@weeklyhomecheck.com),
+# full 52-week archive extracted from Brady's Gmail on 2026-07-23.
+items:
+  - itemType: window-screen-clean
+    name: >-
+      Window/screen cleaning & window well upkeep — Weekly Home Check,
+      Week 14: hose-rinse and scrub window screens with soap, clean
+      windows and check seals/caulking, clean out window wells (remove
+      debris, hose rinse, repair/replace covers, add gravel for
+      drainage). No explicit interval stated; annual matches its
+      once-per-year newsletter slot.
+    intervalMonths: 12
+  - itemType: draft-weatherstripping
+    name: >-
+      Air draft check & door weatherstripping — Weekly Home Check, Week
+      43: feel for cold air at door/window gaps (use a candle or incense
+      stick if unsure, focusing on where different materials meet), seal
+      small cracks with weather-resistant caulk. Replace door
+      weatherstripping if worn/brittle/light passes through — measure,
+      cut, press firmly into the frame, test by opening/closing.
+      Fall/pre-winter task, no explicit numeric interval; annual here.
+    intervalMonths: 12
+  - itemType: exterior-power-wash
+    name: >-
+      Porch, siding & exterior power washing — Weekly Home Check, Week
+      22: scrub the porch with a mild dish soap solution, clean windows
+      with a 1:1 water/vinegar mix, wash siding with a
+      detergent/cleaner mix via pump sprayer or power washer (a
+      professional power-washing service is suggested for heavy
+      mold/algae buildup). No explicit interval stated; annual matches
+      its once-per-year newsletter slot.
+    intervalMonths: 12

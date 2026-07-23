@@ -1,20 +1,47 @@
 # Sourced from Kyshawn's Weekly Home Check newsletter (Home@weeklyhomecheck.com),
-# read from Brady's actual inbox 2026-07-23 — recurring weekly emails Week 6,
-# 18, 31, 46 (filters) and Week 39 (seasonal HVAC service) repeat the same
-# guidance every year. Still generic (not specific to this furnace's brand/
-# model, which isn't on file yet) — replace with manufacturer specs once
-# known.
+# full 52-week archive extracted from Brady's Gmail on 2026-07-23. Weeks
+# 6/18/31/46 (filter) and 13/39 (A/C/condenser/professional service) all
+# recur with the same content. Still generic (not specific to this
+# furnace's brand/model, which isn't on file yet).
 items:
   - itemType: filter-change
     name: >-
-      Air filter change — Weekly Home Check: "replaced every 1-3 months"
-      (recurs Weeks 6/18/31/46, ~quarterly in practice). Set to 2mo here
-      as a middle-ground reminder; tighten to 1mo if you notice it's
-      dirtier than that.
-    intervalMonths: 2
+      HVAC filter replacement — Weekly Home Check (Weeks 6/18/31/46):
+      "replace every 90 days" / "three months have passed" — consistently
+      stated as quarterly across all four recurrences. MERV 8 recommended.
+      For return vents: turn off unit, swap filter at the grid. For air
+      handlers/furnaces: turn off unit, replace filter near the unit.
+    intervalMonths: 3
   - itemType: annual-inspection
     name: >-
-      Professional HVAC inspection/servicing (covers the furnace) —
-      Weekly Home Check, Week 39 (2025-09-28 email): "should be done every
-      2-3 years," typically $60-90. Set to the shorter end (24mo) here.
+      Professional HVAC inspection/servicing — Weekly Home Check, Week 39:
+      "should be done every 2-3 years," typically $60-90 (includes
+      inspection, cleaning, worn-part replacement, safety check). Week 13
+      separately mentions professional inspection "every 3-5 years" for
+      the condenser specifically — the newsletter isn't fully consistent
+      between these two mentions; using the shorter/more conservative 24mo
+      here.
     intervalMonths: 24
+  - itemType: condenser-coil-clean
+    name: >-
+      Clean outdoor A/C condenser coils — Weekly Home Check, Week 13:
+      "clean once a year." Also uncover the unit for the season, inspect
+      for damage, and clear debris/vegetation around it.
+    intervalMonths: 12
+  - itemType: condensate-line-flush
+    name: >-
+      Flush A/C condensate drain line — Weekly Home Check, Week 13: turn
+      off system, locate the white PVC condensate line near the indoor
+      unit, pour in 1 cup distilled white vinegar, let sit 20-30 min,
+      flush with 1-2 cups water. No explicit interval stated; annual
+      matches this being a once-per-year newsletter topic.
+    intervalMonths: 12
+  - itemType: ac-winterize
+    name: >-
+      Winterize/cover A/C unit for the season — Weekly Home Check, Week
+      39: turn off power at the disconnect box, clean debris off the
+      exterior, cover ONLY the top with a tarp or plywood (do not fully
+      enclose — traps moisture, causes rust, invites pests; skip entirely
+      if the unit has a heat pump — check the manual), trim overhanging
+      vegetation.
+    intervalMonths: 12

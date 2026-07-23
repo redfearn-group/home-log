@@ -1,0 +1,6 @@
+tasks:
+  - id: 1
+    title: Log electrical panel location and breaker labels
+    notes: Added 2026-07-23
+    status: open
+    createdDate: '2026-07-23'

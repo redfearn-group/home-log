@@ -69,3 +69,148 @@ items:
     installDate: null
     status: active
     photo: null
+  # Added 2026-07-23 after extracting the full 52-week Weekly Home Check
+  # newsletter (Home@weeklyhomecheck.com) from Brady's Gmail. Grouped by
+  # physical system/room rather than one item per newsletter week, since
+  # many weeks are different facets of the same system (e.g. quarterly
+  # dishwasher+disposal cleaning appears in weeks 4/20/32/48).
+  - slug: kitchen
+    name: Kitchen appliances
+    category: kitchen
+    location: null
+    brand: null
+    model: null
+    serialNumber: null
+    installDate: null
+    status: active
+    photo: null
+  - slug: laundry-machines
+    name: Washing machine & dryer
+    category: laundry
+    location: null
+    brand: null
+    model: null
+    serialNumber: null
+    installDate: null
+    status: active
+    photo: null
+  - slug: bathrooms
+    name: Bathrooms
+    category: bathroom
+    location: null
+    brand: null
+    model: null
+    serialNumber: null
+    installDate: null
+    status: active
+    photo: null
+  - slug: garage-door
+    name: Garage door
+    category: garage-door
+    location: null
+    brand: null
+    model: null
+    serialNumber: null
+    installDate: null
+    status: active
+    photo: null
+  - slug: gutters
+    name: Gutters & downspouts
+    category: gutters
+    location: null
+    brand: null
+    model: null
+    serialNumber: null
+    installDate: null
+    status: active
+    photo: null
+  - slug: roof
+    name: Roof
+    category: roof
+    location: null
+    brand: null
+    model: null
+    serialNumber: null
+    installDate: null
+    status: active
+    photo: null
+  - slug: electrical-panel
+    name: Electrical panel & GFCI outlets
+    category: electrical
+    location: null
+    brand: null
+    model: null
+    serialNumber: null
+    installDate: null
+    status: active
+    photo: null
+  - slug: windows-doors
+    name: Windows, doors & exterior envelope
+    category: windows-doors
+    location: null
+    brand: null
+    model: null
+    serialNumber: null
+    installDate: null
+    status: active
+    photo: null
+  - slug: lawn-equipment
+    name: Lawn & outdoor equipment
+    category: lawn
+    location: null
+    brand: null
+    model: null
+    serialNumber: null
+    installDate: null
+    status: active
+    photo: null
+  - slug: exterior-hardscape
+    name: Exterior hardscape & pest control
+    category: exterior
+    location: null
+    brand: null
+    model: null
+    serialNumber: null
+    installDate: null
+    status: active
+    photo: null
+  - slug: trash-bins
+    name: Trash & recycling bins
+    category: trash
+    location: null
+    brand: null
+    model: null
+    serialNumber: null
+    installDate: null
+    status: active
+    photo: null
+  - slug: mattress-bedding
+    name: Mattress & bedding
+    category: bedding
+    location: null
+    brand: null
+    model: null
+    serialNumber: null
+    installDate: null
+    status: active
+    photo: null
+  - slug: home-records
+    name: Home records & insurance review
+    category: records
+    location: null
+    brand: null
+    model: null
+    serialNumber: null
+    installDate: null
+    status: active
+    photo: null
+  - slug: emergency-kit
+    name: Emergency preparedness kit
+    category: emergency
+    location: null
+    brand: null
+    model: null
+    serialNumber: null
+    installDate: null
+    status: active
+    photo: null

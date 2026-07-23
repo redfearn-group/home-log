@@ -1,0 +1,6 @@
+tasks:
+  - id: 1
+    title: Note how many bathrooms and which fixtures need tracking
+    notes: Added 2026-07-23 — this item currently represents "bathrooms" generically; may be worth splitting per-bathroom later if upkeep differs between them.
+    status: open
+    createdDate: '2026-07-23'

@@ -1,0 +1,37 @@
+# Sourced from Kyshawn's Weekly Home Check newsletter (Home@weeklyhomecheck.com),
+# full 52-week archive extracted from Brady's Gmail on 2026-07-23.
+items:
+  - itemType: spring-tuneup
+    name: >-
+      Spring lawnmower tune-up & lawn prep — Weekly Home Check, Week 12:
+      check/replace mower oil, replace spark plugs, lubricate moving
+      parts, sharpen blades. Lawn (multi-step, region-dependent): rake
+      dead debris, aerate, apply spring fertilizer/pre-emergent before
+      soil hits 55°F then water, mow 1-2x/week, second fertilization by
+      late spring.
+    intervalMonths: 12
+  - itemType: grill-clean
+    name: >-
+      Grill deep clean — Weekly Home Check, Week 37 (end-of-summer):
+      scrub grates, soak removable parts (grates/flavorizers/grease
+      traps) in hot soapy water + degreaser, heat and scrub the interior
+      with a degreaser and stainless steel brush, rinse, clean the
+      exterior with a stainless steel cleaner wiping with the grain. No
+      explicit interval; annual matches its once-per-year newsletter
+      slot.
+    intervalMonths: 12
+  - itemType: patio-furniture-care
+    name: >-
+      Patio furniture spring cleanup / fall storage — Weekly Home Check
+      (Weeks 12 spring, 41 fall): spring — scrub off winter dirt/grime,
+      check for rust/loose screws and repair. Fall — wipe down thoroughly
+      to prevent mold, clean and bring cushions indoors, cover with
+      weatherproof covers or store in a garage/shed.
+    intervalMonths: 6
+  - itemType: mower-winterize
+    name: >-
+      Winterize lawn mower for storage — Weekly Home Check, Week 41: if
+      gas-powered, run the tank empty or add fuel stabilizer (old gas
+      clogs the engine over winter), sharpen or professionally sharpen
+      the blades, replace the spark plug ("recommended once a season").
+    intervalMonths: 12

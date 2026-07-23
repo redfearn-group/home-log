@@ -1,0 +1,54 @@
+# Sourced from Kyshawn's Weekly Home Check newsletter (Home@weeklyhomecheck.com),
+# full 52-week archive extracted from Brady's Gmail on 2026-07-23.
+items:
+  - itemType: exhaust-fan-clean
+    name: >-
+      Bathroom exhaust fan cleaning — Weekly Home Check (Weeks 10/42):
+      cut power at the breaker, remove the fan cover, wipe dust off the
+      cover and blades with a brush/compressed air, let dry fully before
+      reattaching. Week 10 says "a couple times a year," Week 42 is more
+      specific: "every 10-12 weeks" — using the more precise figure.
+    intervalMonths: 3
+  - itemType: drain-flush
+    name: >-
+      Drain flush (kitchen + bathroom sinks) — Weekly Home Check (Weeks
+      10/42): boil 1/2-1 gallon of water and pour down the drain in two
+      batches (warm glass/porcelain sinks first to avoid cracking).
+      Additionally, "3-4 times per year" flush with 1/2 cup baking soda
+      followed by 1/2 cup vinegar, cover the drain tightly for 5 minutes
+      to trap the reaction, then flush with hot water.
+    intervalMonths: 3
+  - itemType: toilet-tank-clean
+    name: >-
+      Toilet tank cleaning — Weekly Home Check, Week 26: turn off the
+      water supply, flush to drain, pour white vinegar into the tank and
+      let sit overnight, scrub the interior with a brush, flush several
+      times to rinse. "Should be cleaned 1-2 times a year" — using the
+      lower end (12mo) here.
+    intervalMonths: 12
+  - itemType: caulk-grout-reseal
+    name: >-
+      Bathroom caulk & grout resealing — Weekly Home Check, Week 27:
+      remove old caulk, clean the area, apply new caulk and let cure 24
+      hrs. Seal tile grout lines with a penetrating grout sealer, let cure
+      24-48 hrs. No explicit interval stated; annual matches its
+      once-per-year newsletter slot.
+    intervalMonths: 12
+  - itemType: fixture-descale
+    name: >-
+      Faucet aerators, showerheads & P-trap cleaning — Weekly Home Check,
+      Week 7: soak aerators/showerheads in vinegar (1 hr to overnight) to
+      dissolve mineral buildup, scrub, rinse, reattach. P-trap: shut off
+      water, unscrew and clean the trap, reassemble, check for leaks. No
+      explicit interval stated (more frequent if you have hard water);
+      annual matches its once-per-year newsletter slot.
+    intervalMonths: 12
+  - itemType: water-pressure-check
+    name: >-
+      Water pressure check — Weekly Home Check, Week 36: screw a pressure
+      gauge onto a faucet or hose bib (nothing else running in the house),
+      open fully, read the gauge. Ideal range is 40-60 psi; below 40 may
+      hurt appliance/shower performance, above 60 risks pipe/appliance
+      damage. No explicit interval stated; annual matches its
+      once-per-year newsletter slot.
+    intervalMonths: 12

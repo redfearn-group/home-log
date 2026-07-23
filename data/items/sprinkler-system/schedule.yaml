@@ -1,8 +1,23 @@
-# Placeholder intervals — replace once system layout/zones are documented.
+# Sourced from Kyshawn's Weekly Home Check newsletter (Home@weeklyhomecheck.com),
+# full 52-week archive extracted from Brady's Gmail on 2026-07-23. Replaces
+# the earlier generic placeholder — the newsletter does cover sprinklers,
+# it just wasn't found in the first, narrower keyword-only search pass.
 items:
   - itemType: spring-startup
-    name: Spring startup (turn on, check heads, adjust coverage)
+    name: >-
+      Spring sprinkler startup — Weekly Home Check, Week 11: inspect each
+      sprinkler head for damage/blockage and clear debris, run the system
+      and observe/adjust spray direction and range, check for leaks
+      (pooling water or soggy lawn areas) and address promptly. Also
+      covers reattaching the garden hose for the season.
     intervalMonths: 12
   - itemType: fall-winterization
-    name: Fall winterization (blow out lines)
+    name: >-
+      Fall sprinkler winterization — Weekly Home Check, Week 40: locate
+      and turn off the main water supply valve to the system, use an air
+      compressor to blow out remaining water from the pipes (prevents
+      freeze-cracking), and check that all sprinkler heads sit level with
+      the ground (uneven heads get damaged by snowplows/heavy snow). Also
+      covers shutting off/draining exterior hose bibs and installing
+      insulated faucet covers.
     intervalMonths: 12

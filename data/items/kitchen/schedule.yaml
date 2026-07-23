@@ -1,0 +1,57 @@
+# Sourced from Kyshawn's Weekly Home Check newsletter (Home@weeklyhomecheck.com),
+# full 52-week archive extracted from Brady's Gmail on 2026-07-23.
+items:
+  - itemType: dishwasher-disposal-clean
+    name: >-
+      Dishwasher & garbage disposal deep clean — Weekly Home Check (Weeks
+      4/20/32/48, "three months have passed" each time): empty
+      dishwasher, remove/scrub the filter, wipe interior/door/dispenser
+      (esp. rubber seals), run a hot cycle with 1-2 cups vinegar in a bowl
+      on the top rack (no detergent), then a second hot cycle with baking
+      soda on the bottom (no detergent) — or a one-cycle dishwasher
+      cleaner product instead. Disposal: scrub rubber flaps, freeze
+      vinegar into ice cubes and grind with water for the blades,
+      deodorize with baking soda + lemon peel or a cleaning tablet, run
+      cold water ~30 sec while grinding.
+    intervalMonths: 3
+  - itemType: refrigerator-clean
+    name: >-
+      Refrigerator deep clean & coil vacuum — Weekly Home Check (Weeks
+      9/33): unplug, empty shelves, discard expired food, wipe
+      shelves/drawers/door seals with warm water + dish soap. Coils
+      (usually behind a rear panel/grill): unplug, vacuum gently with a
+      brush attachment — "clean every 6 months," dirty coils reduce
+      performance and raise energy bills, especially with pets.
+    intervalMonths: 6
+  - itemType: oven-stovetop-clean
+    name: >-
+      Oven & stovetop cleaning — Weekly Home Check, Week 2: vacuum loose
+      debris, run 2 cups distilled water in an oven-safe dish at 450°F
+      for 15-20 min then cool, wipe down, scrub racks separately (soak in
+      dishwasher pods + hot water 6-8 hrs). Self-clean function NOT
+      recommended (fire/damage risk). Stovetop cleaning method depends on
+      type (gas/glass/electric coil) — see full email for per-type steps.
+      No explicit interval stated; annual matches its once-per-year
+      newsletter slot.
+    intervalMonths: 12
+  - itemType: range-hood-filter
+    name: >-
+      Range hood / microwave filter — Weekly Home Check, Week 49: vented
+      (grease/aluminum mesh) filters cleaned "regularly" (2024 version
+      specifies monthly) — soak in hot water with degreaser 10-15 min,
+      scrub, rinse, air dry. Non-vented/charcoal filters can't be cleaned
+      and must be replaced every 6-12 months. First confirm whether the
+      hood is vented or recirculating (run the fan and check for a metal
+      duct vs. air blowing back into the room).
+    intervalMonths: 6
+  - itemType: countertop-sealing
+    name: >-
+      Seal natural stone (granite) countertops — Weekly Home Check, Week
+      50 (2025 version; the 2024 version of this same week slot covered
+      toilet tank cleaning instead, so the newsletter's week-to-topic
+      mapping isn't fully stable year to year — flagging in case you have
+      laminate/quartz instead, which doesn't need sealing at all). Test:
+      drip water on the stone — if it darkens within 1-2 minutes, it needs
+      resealing. Apply sealer, let absorb 10-15 min, buff dry, avoid heavy
+      use for 24 hrs. "Every 6-12 months for high-use kitchens."
+    intervalMonths: 12
