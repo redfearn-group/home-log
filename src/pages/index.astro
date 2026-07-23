@@ -1,0 +1,139 @@
+---
+import Base from "../layouts/Base.astro";
+import StatusBadge from "../components/StatusBadge.astro";
+import { getActiveItems, itemLabel } from "../lib/data";
+import { scheduleStatusesFor, worstStatus, splitScheduleItemName } from "../lib/status";
+import { withBase } from "../lib/url";
+
+const items = getActiveItems();
+
+const rows = items.map((item) => {
+  const statuses = scheduleStatusesFor(item);
+  const dueItems = statuses.filter((s) => s.status === "overdue" || s.status === "due-soon");
+  return {
+    item,
+    overall: worstStatus(statuses),
+    dueItems,
+    openTasks: item.tasks.filter((t) => t.status === "open"),
+  };
+});
+
+const itemsNeedAttentionCount = rows.filter((r) => r.overall !== "ok").length;
+
+const criticalItems = rows.flatMap((r) =>
+  r.openTasks
+    .filter((t) => t.priority === "critical")
+    .map((t) => ({ item: r.item, task: t }))
+);
+
+const accentFor: Record<string, string> = {
+  overdue: "var(--rg-red)",
+  "due-soon": "var(--rg-tawny)",
+  ok: "var(--rg-green)",
+  "never-done": "var(--rg-ash)",
+};
+
+const tagClassFor: Record<string, string> = {
+  overdue: "tag-red",
+  "due-soon": "tag-tawny",
+  ok: "tag-green",
+  "never-done": "tag-neutral",
+};
+
+const ICONS: Record<string, string> = {
+  furnace:
+    "M4 22 L4 4 C4 2.9 4.9 2 6 2 L18 2 C19.1 2 20 2.9 20 4 L20 22 M8 8 L16 8 M8 12 L16 12 M8 16 L16 16",
+  "water-heater":
+    "M12 2 C16 2 18 6 18 11 C18 16.5 15.3 22 12 22 C8.7 22 6 16.5 6 11 C6 6 8 2 12 2 Z M9 11 L15 11",
+  "water-softener":
+    "M12 2 L18 8 C18 12.4 15.3 16 12 16 C8.7 16 6 12.4 6 8 Z M12 16 L12 22 M8 22 L16 22",
+  sprinkler:
+    "M12 22 L12 10 M12 10 C12 6 9 4 6 4 M12 10 C12 6 15 4 18 4 M4 4 L6 4 M18 4 L20 4 M9 2 L9 4 M15 2 L15 4",
+  default:
+    "M3 12 L12 3 L21 12 M5 10 L5 21 L19 21 L19 10",
+};
+
+const iconFor = (category: string) => ICONS[category] ?? ICONS.default;
+---
+<Base title="Dashboard">
+  <h2>Your home</h2>
+  {rows.length === 0 && <p class="muted">No active items yet. Add one to <code>data/items.yaml</code>.</p>}
+
+  {rows.length > 0 && (
+    <div class="fleet-stats fleet-stats-single">
+      <div class="fleet-stat">
+        <div class={`fleet-stat-value ${itemsNeedAttentionCount > 0 ? "is-critical" : "is-positive"}`}>
+          {itemsNeedAttentionCount} / {rows.length}
+        </div>
+        <div class="fleet-stat-label">Need attention</div>
+      </div>
+    </div>
+  )}
+
+  {criticalItems.length > 0 && (
+    <div class="callout callout-alert">
+      <p class="callout-label">Alert — {criticalItems.length} critical item{criticalItems.length === 1 ? "" : "s"}</p>
+      <div class="callout-body">
+        {criticalItems.slice(0, 3).map(({ item, task }) => (
+          <span class="callout-item">
+            <a href={withBase(`/items/${item.slug}`)}>{item.name}</a>
+            {" — "}
+            {task.title}
+          </span>
+        ))}
+        {criticalItems.length > 3 && (
+          <span class="callout-item muted">+{criticalItems.length - 3} more</span>
+        )}
+      </div>
+    </div>
+  )}
+
+  <div class="item-grid">
+    {rows.map(({ item, overall, dueItems, openTasks }) => {
+      const shown = dueItems.slice(0, 3);
+      const overflow = dueItems.length - shown.length;
+      return (
+        <div class="item-card" style={`--card-accent: ${accentFor[overall]}`}>
+          <div class="item-card-header">
+            <div class="item-card-title">
+              <svg class="item-type-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d={iconFor(item.category)} />
+              </svg>
+              <h3><a href={withBase(`/items/${item.slug}`)}>{itemLabel(item)}</a></h3>
+            </div>
+            <StatusBadge status={overall} />
+          </div>
+
+          <div class="stat-row">
+            <div>
+              <div class="stat-value">{item.location ?? "—"}</div>
+              <div class="stat-label">Location</div>
+            </div>
+            <div>
+              <div class="stat-value">{openTasks.length}</div>
+              <div class="stat-label">Open task{openTasks.length === 1 ? "" : "s"}</div>
+            </div>
+          </div>
+
+          {dueItems.length > 0 && (
+            <div class="card-section">
+              <p class="section-label">Needs attention</p>
+              <div class="tag-row">
+                {shown.map((s) => (
+                  <span class={`tag ${tagClassFor[s.status]}`}>{splitScheduleItemName(s.item.name).short}</span>
+                ))}
+                {overflow > 0 && (
+                  <a class="tag tag-neutral tag-link" href={withBase(`/items/${item.slug}`)}>
+                    +{overflow} more →
+                  </a>
+                )}
+              </div>
+            </div>
+          )}
+
+          <a class="card-link" href={withBase(`/items/${item.slug}`)}>View full history →</a>
+        </div>
+      );
+    })}
+  </div>
+</Base>

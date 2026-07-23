@@ -1,0 +1,152 @@
+---
+import Base from "../../layouts/Base.astro";
+import StatusBadge from "../../components/StatusBadge.astro";
+import { getItemSummaries, getItem, itemLabel } from "../../lib/data";
+import { scheduleStatusesFor, upcomingAdminDates, splitScheduleItemName } from "../../lib/status";
+import { withBase } from "../../lib/url";
+import { formatDate } from "../../lib/date";
+
+export function getStaticPaths() {
+  return getItemSummaries().map((i) => ({ params: { slug: i.slug } }));
+}
+
+const { slug } = Astro.params;
+const item = getItem(slug!);
+const statuses = scheduleStatusesFor(item);
+const adminDates = upcomingAdminDates(item);
+const sortedMaintenanceLog = [...item.maintenanceLog].sort((a, b) => (a.date < b.date ? 1 : -1));
+const openTasks = item.tasks.filter((t) => t.status === "open");
+const doneTasks = item.tasks.filter((t) => t.status === "done");
+// Addressed items are already in maintenance-log.yaml — the watch list is
+// only for things still worth watching for.
+const activeWatchList = item.watchList.filter((w) => w.status !== "addressed");
+---
+<Base title={itemLabel(item)}>
+  <p class="no-print"><a href={withBase("/")}>← Dashboard</a></p>
+  <div style="display:flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; gap: 0.5rem;">
+    <h2 style="margin: 0;">{itemLabel(item)}</h2>
+    <a class="no-print" href={withBase(`/items/${item.slug}/export`)}>Printable / export history →</a>
+  </div>
+  <p class="muted" style="margin-top: 0.25rem;">
+    Location: {item.location || "—"} · Serial: {item.serialNumber || "<private>"} · Installed: {item.installDate ? formatDate(item.installDate) : "—"}
+  </p>
+
+  <div class="stat-row card">
+    <div class="stat"><strong>{item.location ?? "—"}</strong>location</div>
+    <div class="stat"><strong>{sortedMaintenanceLog.length}</strong>logged services</div>
+    <div class="stat"><strong>{openTasks.length}</strong>open tasks</div>
+    <div class="stat"><strong>{item.documents.length}</strong>documents</div>
+  </div>
+
+  <details class="section" open>
+    <summary class="section-summary">Maintenance schedule</summary>
+    <div class="table-wrap">
+    <table>
+      <thead>
+        <tr><th>Item</th><th>Status</th><th>Last done</th><th>Due</th></tr>
+      </thead>
+      <tbody>
+        {statuses.map((s) => {
+          const { short, citation } = splitScheduleItemName(s.item.name);
+          return (
+          <tr>
+            <td>
+              {citation ? (
+                <details>
+                  <summary>{short}</summary>
+                  <p class="muted" style="font-size:0.85rem; margin: 0.35rem 0 0;">{citation}</p>
+                </details>
+              ) : short}
+            </td>
+            <td><StatusBadge status={s.status} /></td>
+            <td>{s.lastDone ? formatDate(s.lastDone.date) : "—"}</td>
+            <td>{s.dueDate != null ? formatDate(s.dueDate) : "—"}</td>
+          </tr>
+          );
+        })}
+        {statuses.length === 0 && <tr><td colspan="4" class="muted">No schedule items yet.</td></tr>}
+      </tbody>
+    </table>
+    </div>
+  </details>
+
+  {activeWatchList.length > 0 && (
+    <details class="section" open>
+      <summary class="section-summary">Things to watch for</summary>
+      <div class="table-wrap">
+      <table>
+        <thead><tr><th>Issue</th><th>Status</th></tr></thead>
+        <tbody>
+          {activeWatchList.map((w) => (
+            <tr>
+              <td>{w.issue}<div class="muted" style="font-size:0.85rem;">{w.description}</div></td>
+              <td>{w.status}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+      </div>
+    </details>
+  )}
+
+  <details class="section" open>
+    <summary class="section-summary">Tasks</summary>
+    <ul class="pill-list">
+      {openTasks.map((t) => (
+        <li>
+          ☐ {t.priority === "critical" && <span class="tag tag-red" style="margin-right: 0.4rem;">Critical</span>}
+          {t.title} <span class="muted">({formatDate(t.createdDate)})</span>
+        </li>
+      ))}
+      {doneTasks.map((t) => <li class="muted">☑ {t.title}</li>)}
+      {item.tasks.length === 0 && <li class="muted">No tasks.</li>}
+    </ul>
+  </details>
+
+  <details class="section">
+    <summary class="section-summary">Maintenance history</summary>
+    <div class="table-wrap">
+    <table>
+      <thead><tr><th>Date</th><th>Item</th><th>Notes</th></tr></thead>
+      <tbody>
+        {sortedMaintenanceLog.map((m) => (
+          <tr>
+            <td>{formatDate(m.date)}</td>
+            <td>{m.description}</td>
+            <td class="muted">{m.notes}</td>
+          </tr>
+        ))}
+        {sortedMaintenanceLog.length === 0 && <tr><td colspan="3" class="muted">No history logged yet.</td></tr>}
+      </tbody>
+    </table>
+    </div>
+  </details>
+
+  <details class="section">
+    <summary class="section-summary">Admin dates</summary>
+    <div class="table-wrap">
+    <table>
+      <thead><tr><th>Type</th><th>Due</th><th>Notes</th></tr></thead>
+      <tbody>
+        {adminDates.map((d) => <tr><td>{d.label}</td><td>{formatDate(d.dueDate)}</td><td class="muted">{d.notes}</td></tr>)}
+        {adminDates.length === 0 && <tr><td colspan="3" class="muted">None on file.</td></tr>}
+      </tbody>
+    </table>
+    </div>
+  </details>
+
+  <details class="section">
+    <summary class="section-summary">Documents</summary>
+    <p class="muted" style="font-size:0.85rem;">🔒 Source files are kept in a private repo — only the summary below is public.</p>
+    <ul class="pill-list">
+      {item.documents.map((doc) => (
+        <li>
+          <span>{doc.filename}</span>
+          <span class="muted"> — {doc.category}, added {formatDate(doc.dateAdded)}</span>
+          {doc.description && <div class="muted" style="font-size:0.85rem;">{doc.description}</div>}
+        </li>
+      ))}
+      {item.documents.length === 0 && <li class="muted">No documents uploaded.</li>}
+    </ul>
+  </details>
+</Base>

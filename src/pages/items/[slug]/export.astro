@@ -1,0 +1,52 @@
+---
+import Base from "../../../layouts/Base.astro";
+import { getItemSummaries, getItem, itemLabel } from "../../../lib/data";
+import { withBase } from "../../../lib/url";
+import { formatDate } from "../../../lib/date";
+
+export function getStaticPaths() {
+  return getItemSummaries().map((i) => ({ params: { slug: i.slug } }));
+}
+
+const { slug } = Astro.params;
+const item = getItem(slug!);
+const sortedMaintenanceLog = [...item.maintenanceLog].sort((a, b) => (a.date < b.date ? -1 : 1));
+---
+<Base title={`${itemLabel(item)} — history export`}>
+  <p class="no-print">
+    <a href={withBase(`/items/${item.slug}`)}>← Back to item</a>
+    &nbsp;·&nbsp;
+    <a href={withBase(`/items/${item.slug}/export.csv`)}>Download CSV</a>
+    &nbsp;·&nbsp;
+    <button onclick="window.print()">Print / Save as PDF</button>
+  </p>
+
+  <h2>{itemLabel(item)} — Maintenance History</h2>
+  <p class="muted">
+    Location: {item.location || "—"} · Installed: {item.installDate ? formatDate(item.installDate) : "—"}
+  </p>
+
+  <h3 class="section-title">Service history</h3>
+  <div class="table-wrap">
+  <table>
+    <thead><tr><th>Date</th><th>Service</th><th>Notes</th></tr></thead>
+    <tbody>
+      {sortedMaintenanceLog.map((m) => (
+        <tr>
+          <td>{formatDate(m.date)}</td>
+          <td>{m.description}</td>
+          <td>{m.notes}</td>
+        </tr>
+      ))}
+    </tbody>
+  </table>
+  </div>
+
+  <h3 class="section-title">Documents on file</h3>
+  <ul>
+    {item.documents.map((doc) => <li>{doc.filename} — {doc.category} ({formatDate(doc.dateAdded)}){doc.description ? `: ${doc.description}` : ""}</li>)}
+    {item.documents.length === 0 && <li class="muted">None</li>}
+  </ul>
+
+  <p class="muted" style="margin-top: 2rem; font-size: 0.85rem;">Generated from home-log for handover purposes.</p>
+</Base>

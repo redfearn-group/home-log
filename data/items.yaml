@@ -1,0 +1,51 @@
+# Index of all home items. Add new ones here — slug must be unique and
+# match the folder name under data/items/<slug>/.
+#
+# PRIVACY: this file and the public site are general-information-only.
+# Serial numbers, account numbers, and any other identifying details belong
+# in each item's private.yaml (gitignored, never committed) instead.
+#
+# STARTER DATA (2026-07-23): the four items below are placeholders — brand,
+# model, install date, and history are all unknown/unset until Brady fills
+# them in. Don't invent specifics; ask instead.
+items:
+  - slug: furnace
+    name: Furnace
+    category: furnace
+    location: null
+    brand: null
+    model: null
+    serialNumber: null
+    installDate: null
+    status: active
+    photo: null
+  - slug: water-heater
+    name: Water heater
+    category: water-heater
+    location: null
+    brand: null
+    model: null
+    serialNumber: null
+    installDate: null
+    status: active
+    photo: null
+  - slug: water-softener
+    name: Water softener
+    category: water-softener
+    location: null
+    brand: null
+    model: null
+    serialNumber: null
+    installDate: null
+    status: active
+    photo: null
+  - slug: sprinkler-system
+    name: Sprinkler system
+    category: sprinkler
+    location: null
+    brand: null
+    model: null
+    serialNumber: null
+    installDate: null
+    status: active
+    photo: null

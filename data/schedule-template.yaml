@@ -1,0 +1,10 @@
+# Generic starter schedule for a newly added item. Edit per-item afterward
+# using the actual manufacturer manual/spec sheet once brand & model are
+# known — these are placeholder categories, not sourced intervals.
+items:
+  - itemType: filter-change
+    name: Filter change
+    intervalMonths: 3
+  - itemType: annual-inspection
+    name: Annual inspection / tune-up
+    intervalMonths: 12

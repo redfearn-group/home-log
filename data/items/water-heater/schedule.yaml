@@ -1,0 +1,8 @@
+# Placeholder intervals — replace once brand/model/tank-vs-tankless is known.
+items:
+  - itemType: tank-flush
+    name: Tank flush / sediment drain — generic guidance, confirm against manual once model is known
+    intervalMonths: 12
+  - itemType: anode-rod-inspection
+    name: Anode rod inspection (tank units only)
+    intervalMonths: 24

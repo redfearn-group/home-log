@@ -1,0 +1,10 @@
+# Placeholder intervals — replace with the actual manufacturer schedule once
+# brand/model are on file (see data/items.yaml). These are common generic
+# furnace-maintenance intervals, not sourced from a specific manual yet.
+items:
+  - itemType: filter-change
+    name: Air filter change — generic guidance, confirm against manual once model is known
+    intervalMonths: 3
+  - itemType: annual-inspection
+    name: Annual professional inspection / tune-up (before heating season)
+    intervalMonths: 12

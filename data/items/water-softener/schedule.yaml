@@ -1,0 +1,8 @@
+# Placeholder intervals — replace once brand/model is known.
+items:
+  - itemType: salt-refill
+    name: Salt refill — check level monthly, this interval is a check-in reminder not a hard refill schedule
+    intervalMonths: 1
+  - itemType: resin-tank-cleaning
+    name: Resin tank cleaning
+    intervalMonths: 12

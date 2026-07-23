@@ -1,0 +1,8 @@
+# Placeholder intervals — replace once system layout/zones are documented.
+items:
+  - itemType: spring-startup
+    name: Spring startup (turn on, check heads, adjust coverage)
+    intervalMonths: 12
+  - itemType: fall-winterization
+    name: Fall winterization (blow out lines)
+    intervalMonths: 12

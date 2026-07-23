@@ -1,0 +1,6 @@
+tasks:
+  - id: 1
+    title: Document zone layout, controller brand/model, and backflow preventer details
+    notes: Placeholder item created 2026-07-23 — needs real details before the schedule/history mean anything.
+    status: open
+    createdDate: '2026-07-23'
