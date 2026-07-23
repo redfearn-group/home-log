@@ -1,10 +1,20 @@
-# Placeholder intervals — replace with the actual manufacturer schedule once
-# brand/model are on file (see data/items.yaml). These are common generic
-# furnace-maintenance intervals, not sourced from a specific manual yet.
+# Sourced from Kyshawn's Weekly Home Check newsletter (Home@weeklyhomecheck.com),
+# read from Brady's actual inbox 2026-07-23 — recurring weekly emails Week 6,
+# 18, 31, 46 (filters) and Week 39 (seasonal HVAC service) repeat the same
+# guidance every year. Still generic (not specific to this furnace's brand/
+# model, which isn't on file yet) — replace with manufacturer specs once
+# known.
 items:
   - itemType: filter-change
-    name: Air filter change — generic guidance, confirm against manual once model is known
-    intervalMonths: 3
+    name: >-
+      Air filter change — Weekly Home Check: "replaced every 1-3 months"
+      (recurs Weeks 6/18/31/46, ~quarterly in practice). Set to 2mo here
+      as a middle-ground reminder; tighten to 1mo if you notice it's
+      dirtier than that.
+    intervalMonths: 2
   - itemType: annual-inspection
-    name: Annual professional inspection / tune-up (before heating season)
-    intervalMonths: 12
+    name: >-
+      Professional HVAC inspection/servicing (covers the furnace) —
+      Weekly Home Check, Week 39 (2025-09-28 email): "should be done every
+      2-3 years," typically $60-90. Set to the shorter end (24mo) here.
+    intervalMonths: 24

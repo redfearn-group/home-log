@@ -1,0 +1,27 @@
+# Sourced from Kyshawn's Weekly Home Check newsletter (Home@weeklyhomecheck.com),
+# Week 29 email (2026-07-19, read from Brady's inbox 2026-07-23).
+items:
+  - itemType: alarm-test
+    name: >-
+      Test smoke alarms & CO detectors — Weekly Home Check, Week 29:
+      press the test button on every unit until it sounds; a weak or
+      inconsistent sound means the batteries need replacing. One unit per
+      floor, including attic & basement. His own cadence is roughly every
+      5 months (this email calls out "five months have passed" since the
+      last check) — set to 6mo here.
+    intervalMonths: 6
+  - itemType: battery-replacement
+    name: >-
+      Replace smoke alarm/CO detector 9V batteries — Weekly Home Check,
+      Week 29: "should be replaced about 1-2 times a year" (Kyshawn does
+      his during Week 35, alongside other emergency-prep items). Also: if
+      a unit chirps every 1-2 minutes, replace immediately regardless of
+      schedule.
+    intervalMonths: 12
+  - itemType: extinguisher-check
+    name: >-
+      Inspect fire extinguishers — Weekly Home Check, Week 29: confirm
+      the pressure gauge needle is in the green (red means it needs
+      recharging), check the expiration date, and turn the unit upside
+      down about once a month to keep contents from settling.
+    intervalMonths: 1

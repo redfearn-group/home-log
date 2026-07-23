@@ -1,0 +1,6 @@
+tasks:
+  - id: 1
+    title: Confirm whether a sump pump is actually present, and where
+    notes: Added 2026-07-23 from Weekly Home Check's Week 25 email — not yet confirmed this house has one.
+    status: open
+    createdDate: '2026-07-23'

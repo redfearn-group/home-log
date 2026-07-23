@@ -1,0 +1,14 @@
+# Sourced from Kyshawn's Weekly Home Check newsletter (Home@weeklyhomecheck.com),
+# Week 25 email (recurs annually, read 2026-06-21 instance from Brady's
+# inbox on 2026-07-23) — same email as the water heater/softener check.
+items:
+  - itemType: pump-test
+    name: >-
+      Test sump pump — Weekly Home Check, Week 25: check the breaker
+      hasn't tripped and the pump is plugged in, inspect for visible
+      damage/debris, pour a bucket of water into the pit until the pump
+      activates and shuts off automatically, and confirm the discharge
+      line expels water outside without blockages. Interval not stated
+      explicitly; annual matches the newsletter's once-per-year cadence
+      for this topic.
+    intervalMonths: 12

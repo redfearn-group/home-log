@@ -1,8 +1,18 @@
-# Placeholder intervals — replace once brand/model is known.
+# Sourced from Kyshawn's Weekly Home Check newsletter (Home@weeklyhomecheck.com),
+# Week 25 email (recurs annually, read 2026-06-21 instance from Brady's
+# inbox on 2026-07-23). Still generic (not specific to this softener's
+# brand/model, which isn't on file yet).
 items:
   - itemType: salt-refill
-    name: Salt refill — check level monthly, this interval is a check-in reminder not a hard refill schedule
+    name: >-
+      Salt level check — Weekly Home Check, Week 25: "ensure the brine
+      tank is at least half full of salt and add more if needed." Monthly
+      here is a check-in reminder, not a hard refill schedule.
     intervalMonths: 1
   - itemType: resin-tank-cleaning
-    name: Resin tank cleaning
+    name: >-
+      Brine tank cleaning — Weekly Home Check, Week 25: "once a year,
+      clean the brine tank. Empty it, clean any sediment or salt bridges,
+      and rinse with water." Also inspect for leaks and consider a resin
+      bed cleaner product.
     intervalMonths: 12

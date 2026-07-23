@@ -5,7 +5,7 @@
 # Serial numbers, account numbers, and any other identifying details belong
 # in each item's private.yaml (gitignored, never committed) instead.
 #
-# STARTER DATA (2026-07-23): the four items below are placeholders — brand,
+# STARTER DATA (2026-07-23): the items below are placeholders — brand,
 # model, install date, and history are all unknown/unset until Brady fills
 # them in. Don't invent specifics; ask instead.
 items:
@@ -42,6 +42,26 @@ items:
   - slug: sprinkler-system
     name: Sprinkler system
     category: sprinkler
+    location: null
+    brand: null
+    model: null
+    serialNumber: null
+    installDate: null
+    status: active
+    photo: null
+  - slug: sump-pump
+    name: Sump pump
+    category: sump-pump
+    location: null
+    brand: null
+    model: null
+    serialNumber: null
+    installDate: null
+    status: active
+    photo: null
+  - slug: fire-safety
+    name: Smoke alarms, CO detectors & fire extinguishers
+    category: fire-safety
     location: null
     brand: null
     model: null

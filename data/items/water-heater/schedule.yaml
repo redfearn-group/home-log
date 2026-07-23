@@ -1,8 +1,16 @@
-# Placeholder intervals — replace once brand/model/tank-vs-tankless is known.
+# Sourced from Kyshawn's Weekly Home Check newsletter (Home@weeklyhomecheck.com),
+# Week 25 email (recurs annually, read 2026-06-21 instance from Brady's
+# inbox on 2026-07-23). Still generic (not specific to this water heater's
+# brand/model/tank-vs-tankless, which isn't on file yet).
 items:
   - itemType: tank-flush
-    name: Tank flush / sediment drain — generic guidance, confirm against manual once model is known
+    name: >-
+      Tank flush / sediment drain — Weekly Home Check, Week 25: drain and
+      flush the tank to clear sediment buildup that reduces efficiency and
+      can cause damage. Interval not stated explicitly in the email;
+      annual is the newsletter's implicit cadence (it's a once-per-year
+      recurring topic) and matches general industry guidance.
     intervalMonths: 12
   - itemType: anode-rod-inspection
-    name: Anode rod inspection (tank units only)
+    name: Anode rod inspection (tank units only) — generic industry guidance, not covered in Weekly Home Check
     intervalMonths: 24
