@@ -12,7 +12,7 @@ const { slug } = Astro.params;
 const item = getItem(slug!);
 const sortedMaintenanceLog = [...item.maintenanceLog].sort((a, b) => (a.date < b.date ? -1 : 1));
 ---
-<Base title={`${itemLabel(item)} — history export`}>
+<Base title={`${itemLabel(item)}: history export`}>
   <p class="no-print">
     <a href={withBase(`/items/${item.slug}`)}>← Back to item</a>
     &nbsp;·&nbsp;
@@ -21,7 +21,7 @@ const sortedMaintenanceLog = [...item.maintenanceLog].sort((a, b) => (a.date < b
     <button onclick="window.print()">Print / Save as PDF</button>
   </p>
 
-  <h2>{itemLabel(item)} — Maintenance History</h2>
+  <h2>{itemLabel(item)}: Maintenance History</h2>
   <p class="muted">
     Location: {item.location || "—"} · Installed: {item.installDate ? formatDate(item.installDate) : "—"}
   </p>
@@ -44,7 +44,7 @@ const sortedMaintenanceLog = [...item.maintenanceLog].sort((a, b) => (a.date < b
 
   <h3 class="section-title">Documents on file</h3>
   <ul>
-    {item.documents.map((doc) => <li>{doc.filename} — {doc.category} ({formatDate(doc.dateAdded)}){doc.description ? `: ${doc.description}` : ""}</li>)}
+    {item.documents.map((doc) => <li>{doc.filename} · {doc.category} ({formatDate(doc.dateAdded)}){doc.description ? `: ${doc.description}` : ""}</li>)}
     {item.documents.length === 0 && <li class="muted">None</li>}
   </ul>
 

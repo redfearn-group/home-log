@@ -2,7 +2,7 @@
 // since src/lib/data.ts loads YAML straight through with no field-level
 // filtering. If a new field is meant to carry account numbers, contract
 // details, or anything else that shouldn't be public, it belongs in an
-// item's gitignored private.yaml instead — not as a new field here.
+// item's gitignored private.yaml instead, not as a new field here.
 
 export interface ItemSummary {
   slug: string;

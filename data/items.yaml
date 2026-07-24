@@ -1,11 +1,11 @@
-# Index of all home items. Add new ones here — slug must be unique and
+# Index of all home items. Add new ones here. Slug must be unique and
 # match the folder name under data/items/<slug>/.
 #
 # PRIVACY: this file and the public site are general-information-only.
 # Serial numbers, account numbers, and any other identifying details belong
 # in each item's private.yaml (gitignored, never committed) instead.
 #
-# STARTER DATA (2026-07-23): the items below are placeholders — brand,
+# STARTER DATA (2026-07-23): the items below are placeholders. Brand,
 # model, install date, and history are all unknown/unset until Brady fills
 # them in. Don't invent specifics; ask instead.
 items:

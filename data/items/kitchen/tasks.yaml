@@ -1,6 +1,6 @@
 tasks:
   - id: 1
     title: Confirm countertop material (granite/other stone vs. laminate/quartz) before relying on the sealing schedule item
-    notes: Added 2026-07-23 from Weekly Home Check's Week 50 email — sealing only applies to natural stone.
+    notes: Added 2026-07-23 from Weekly Home Check's Week 50 email. Sealing only applies to natural stone.
     status: open
     createdDate: '2026-07-23'

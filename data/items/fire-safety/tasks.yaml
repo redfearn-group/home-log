@@ -1,6 +1,6 @@
 tasks:
   - id: 1
     title: Document how many smoke alarms/CO detectors/extinguishers are on hand and where
-    notes: Added 2026-07-23 from Weekly Home Check's Week 29 email — count and locations not yet on file.
+    notes: Added 2026-07-23 from Weekly Home Check's Week 29 email. Count and locations not yet on file.
     status: open
     createdDate: '2026-07-23'

@@ -5,9 +5,9 @@ items:
     name: >-
       Bathroom exhaust fan cleaning — Weekly Home Check (Weeks 10/42):
       cut power at the breaker, remove the fan cover, wipe dust off the
-      cover and blades with a brush/compressed air, let dry fully before
-      reattaching. Week 10 says "a couple times a year," Week 42 is more
-      specific: "every 10-12 weeks" — using the more precise figure.
+      cover and blades with a brush or compressed air, let dry fully
+      before reattaching. Week 10 says "a couple times a year," Week 42 is
+      more specific at "every 10-12 weeks". Using the more precise figure.
     intervalMonths: 3
   - itemType: drain-flush
     name: >-
@@ -23,7 +23,7 @@ items:
       Toilet tank cleaning — Weekly Home Check, Week 26: turn off the
       water supply, flush to drain, pour white vinegar into the tank and
       let sit overnight, scrub the interior with a brush, flush several
-      times to rinse. "Should be cleaned 1-2 times a year" — using the
+      times to rinse. "Should be cleaned 1-2 times a year." Using the
       lower end (12mo) here.
     intervalMonths: 12
   - itemType: caulk-grout-reseal

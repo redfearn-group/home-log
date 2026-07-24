@@ -8,7 +8,7 @@ items:
       inconsistent sound means the batteries need replacing. One unit per
       floor, including attic & basement. His own cadence is roughly every
       5 months (this email calls out "five months have passed" since the
-      last check) — set to 6mo here.
+      last check), so 6mo here.
     intervalMonths: 6
   - itemType: battery-replacement
     name: >-

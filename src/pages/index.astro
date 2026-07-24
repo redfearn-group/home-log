@@ -76,12 +76,12 @@ const iconFor = (category: string) => ICONS[category] ?? ICONS.default;
 
   {criticalItems.length > 0 && (
     <div class="callout callout-alert">
-      <p class="callout-label">Alert — {criticalItems.length} critical item{criticalItems.length === 1 ? "" : "s"}</p>
+      <p class="callout-label">Alert: {criticalItems.length} critical item{criticalItems.length === 1 ? "" : "s"}</p>
       <div class="callout-body">
         {criticalItems.slice(0, 3).map(({ item, task }) => (
           <span class="callout-item">
             <a href={withBase(`/items/${item.slug}`)}>{item.name}</a>
-            {" — "}
+            {": "}
             {task.title}
           </span>
         ))}

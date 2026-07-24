@@ -7,10 +7,11 @@ items:
   - itemType: filter-change
     name: >-
       HVAC filter replacement — Weekly Home Check (Weeks 6/18/31/46):
-      "replace every 90 days" / "three months have passed" — consistently
-      stated as quarterly across all four recurrences. MERV 8 recommended.
-      For return vents: turn off unit, swap filter at the grid. For air
-      handlers/furnaces: turn off unit, replace filter near the unit.
+      "replace every 90 days" and "three months have passed", stated
+      consistently as quarterly across all four recurrences. MERV 8
+      recommended. For return vents: turn off unit, swap filter at the
+      grid. For air handlers/furnaces: turn off unit, replace filter near
+      the unit.
     intervalMonths: 3
   - itemType: annual-inspection
     name: >-
@@ -18,9 +19,9 @@ items:
       "should be done every 2-3 years," typically $60-90 (includes
       inspection, cleaning, worn-part replacement, safety check). Week 13
       separately mentions professional inspection "every 3-5 years" for
-      the condenser specifically — the newsletter isn't fully consistent
-      between these two mentions; using the shorter/more conservative 24mo
-      here.
+      the condenser specifically. The newsletter isn't fully consistent
+      between these two mentions; using the shorter, more conservative
+      24mo here.
     intervalMonths: 24
   - itemType: condenser-coil-clean
     name: >-
@@ -40,8 +41,8 @@ items:
     name: >-
       Winterize/cover A/C unit for the season — Weekly Home Check, Week
       39: turn off power at the disconnect box, clean debris off the
-      exterior, cover ONLY the top with a tarp or plywood (do not fully
-      enclose — traps moisture, causes rust, invites pests; skip entirely
-      if the unit has a heat pump — check the manual), trim overhanging
+      exterior, cover ONLY the top with a tarp or plywood (fully enclosing
+      it traps moisture, causes rust, and invites pests; skip entirely if
+      the unit has a heat pump, and check the manual), trim overhanging
       vegetation.
     intervalMonths: 12

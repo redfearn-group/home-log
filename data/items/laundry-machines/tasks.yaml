@@ -1,6 +1,6 @@
 tasks:
   - id: 1
     title: Fill in washer/dryer brand, model, and install date
-    notes: Added 2026-07-23 — needs real details before schedule/history mean anything.
+    notes: Added 2026-07-23. Needs real details before schedule/history mean anything.
     status: open
     createdDate: '2026-07-23'
