@@ -18,7 +18,7 @@ const sortedMaintenanceLog = [...item.maintenanceLog].sort((a, b) => (a.date < b
     &nbsp;·&nbsp;
     <a href={withBase(`/items/${item.slug}/export.csv`)}>Download CSV</a>
     &nbsp;·&nbsp;
-    <button onclick="window.print()">Print / Save as PDF</button>
+    <button onclick="window.print()" class="btn btn-ghost-dark">Print / Save as PDF</button>
   </p>
 
   <h2>{itemLabel(item)}: Maintenance History</h2>

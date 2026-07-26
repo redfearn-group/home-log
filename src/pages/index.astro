@@ -60,6 +60,7 @@ const ICONS: Record<string, string> = {
 const iconFor = (category: string) => ICONS[category] ?? ICONS.default;
 ---
 <Base title="Dashboard">
+  <div class="eyebrow">Dashboard</div>
   <h2>Your home</h2>
   {rows.length === 0 && <p class="muted">No active items yet. Add one to <code>data/items.yaml</code>.</p>}
 

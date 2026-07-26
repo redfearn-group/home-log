@@ -23,6 +23,7 @@ const activeWatchList = item.watchList.filter((w) => w.status !== "addressed");
 ---
 <Base title={itemLabel(item)}>
   <p class="no-print"><a href={withBase("/")}>← Dashboard</a></p>
+  <div class="eyebrow">Item</div>
   <div style="display:flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; gap: 0.5rem;">
     <h2 style="margin: 0;">{itemLabel(item)}</h2>
     <a class="no-print" href={withBase(`/items/${item.slug}/export`)}>Printable / export history →</a>
