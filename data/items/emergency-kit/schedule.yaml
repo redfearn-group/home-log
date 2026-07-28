@@ -1,15 +1,33 @@
 # Sourced from Kyshawn's Weekly Home Check newsletter (Home@weeklyhomecheck.com),
 # full 52-week archive extracted from Brady's Gmail on 2026-07-23.
 items:
-  - itemType: kit-restock
+  - itemType: home-stockpile-restock
     name: >-
-      Emergency kit restock — Weekly Home Check, Week 35 (tied to
-      September's Emergency Preparedness Month): assemble/refresh 3 kits,
-      namely the Home Stockpile (sheltering in place without
-      water/power/gas), the Go Bag (quick-exit backpack), and the Car
-      Kit. Checklist: water (1 gal/person/
-      day), 3-day non-perishable food supply, first aid, flashlights,
-      batteries, hygiene items, copies of important documents, cash in
-      small bills, pet supplies. Smoke-alarm 9V battery swaps (Week 29)
-      also happen during this week.
+      Home stockpile restock (shelter-in-place kit) — SPLIT 2026-07-28
+      from a combined "3 kits" item, per Brady: the Home Stockpile, Go
+      Bag, and Car Kit serve different emergency scenarios, so each now
+      gets its own line rather than risking two of the three being
+      silently marked "done" alongside the one actually restocked.
+      Weekly Home Check, Week 35 (tied to September's Emergency
+      Preparedness Month): for sheltering in place without
+      water/power/gas — water (1 gal/person/day), 3-day non-perishable
+      food supply, first aid, flashlights, batteries, hygiene items,
+      copies of important documents, cash in small bills, pet supplies.
+    intervalMonths: 12
+  - itemType: go-bag-restock
+    name: >-
+      Go Bag restock (quick-exit backpack) — SPLIT 2026-07-28 from a
+      combined "3 kits" item, per Brady: see home-stockpile-restock
+      above for why these are now separate. Weekly Home Check, Week 35:
+      same checklist contents as the Home Stockpile, packed for a fast
+      exit rather than sheltering in place.
+    intervalMonths: 12
+  - itemType: car-kit-restock
+    name: >-
+      Car Kit restock — SPLIT 2026-07-28 from a combined "3 kits" item,
+      per Brady: see home-stockpile-restock above for why these are now
+      separate. Weekly Home Check, Week 35: same checklist contents as
+      the Home Stockpile, kept in the vehicle. Smoke-alarm 9V battery
+      swaps (Week 29) also happen during this week but are tracked
+      separately under fire-safety's battery-replacement item.
     intervalMonths: 12

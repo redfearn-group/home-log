@@ -1,38 +1,66 @@
 # Sourced from Kyshawn's Weekly Home Check newsletter (Home@weeklyhomecheck.com),
 # full 52-week archive extracted from Brady's Gmail on 2026-07-23.
 items:
-  - itemType: dishwasher-disposal-clean
+  - itemType: dishwasher-clean
     name: >-
-      Dishwasher & garbage disposal deep clean — Weekly Home Check (Weeks
+      Dishwasher deep clean — SPLIT 2026-07-28 from a combined
+      "dishwasher & garbage disposal" item, per Brady: two separate
+      appliances now get their own line so a log entry covering only one
+      can't silently mark the other "done." Weekly Home Check (Weeks
       4/20/32/48, "three months have passed" each time): empty
       dishwasher, remove/scrub the filter, wipe interior/door/dispenser
       (esp. rubber seals), run a hot cycle with 1-2 cups vinegar in a bowl
       on the top rack (no detergent), then a second hot cycle with baking
       soda on the bottom (no detergent), or use a one-cycle dishwasher
-      cleaner product instead. Disposal: scrub rubber flaps, freeze
-      vinegar into ice cubes and grind with water for the blades,
-      deodorize with baking soda plus a lemon peel or cleaning tablet, run
-      cold water ~30 sec while grinding.
+      cleaner product instead.
     intervalMonths: 3
-  - itemType: refrigerator-clean
+  - itemType: disposal-clean
     name: >-
-      Refrigerator deep clean & coil vacuum — Weekly Home Check (Weeks
-      9/33): unplug, empty shelves, discard expired food, wipe
-      shelves/drawers/door seals with warm water and dish soap. Coils
-      (usually behind a rear panel/grill): unplug, vacuum gently with a
-      brush attachment. "Clean every 6 months." Dirty coils reduce
+      Garbage disposal deep clean — SPLIT 2026-07-28 from a combined
+      "dishwasher & garbage disposal" item, per Brady: two separate
+      appliances now get their own line. Weekly Home Check (Weeks
+      4/20/32/48, same cadence as dishwasher-clean above): scrub rubber
+      flaps, freeze vinegar into ice cubes and grind with water for the
+      blades, deodorize with baking soda plus a lemon peel or cleaning
+      tablet, run cold water ~30 sec while grinding.
+    intervalMonths: 3
+  - itemType: refrigerator-interior-clean
+    name: >-
+      Refrigerator interior deep clean — SPLIT 2026-07-28 from a combined
+      "refrigerator clean & coil vacuum" item, per Brady: the coils are
+      the piece most likely to get skipped, so each now gets its own
+      line. Weekly Home Check (Weeks 9/33): unplug, empty shelves,
+      discard expired food, wipe shelves/drawers/door seals with warm
+      water and dish soap. "Clean every 6 months."
+    intervalMonths: 6
+  - itemType: refrigerator-coil-clean
+    name: >-
+      Refrigerator coil vacuum — SPLIT 2026-07-28 from a combined
+      "refrigerator clean & coil vacuum" item, per Brady: this is the
+      piece most likely to get silently skipped if bundled with the
+      interior wipe-down, so it now gets its own line. Weekly Home Check
+      (Weeks 9/33): coils (usually behind a rear panel/grill): unplug,
+      vacuum gently with a brush attachment. Dirty coils reduce
       performance and raise energy bills, especially with pets.
     intervalMonths: 6
-  - itemType: oven-stovetop-clean
+  - itemType: oven-clean
     name: >-
-      Oven & stovetop cleaning — Weekly Home Check, Week 2: vacuum loose
-      debris, run 2 cups distilled water in an oven-safe dish at 450°F
-      for 15-20 min then cool, wipe down, scrub racks separately (soak in
+      Oven deep clean — SPLIT 2026-07-28 from a combined "oven &
+      stovetop" item, per Brady: two functionally distinct appliances now
+      get their own line. Weekly Home Check, Week 2: vacuum loose debris,
+      run 2 cups distilled water in an oven-safe dish at 450°F for 15-20
+      min then cool, wipe down, scrub racks separately (soak in
       dishwasher pods and hot water 6-8 hrs). Self-clean function NOT
-      recommended (fire/damage risk). Stovetop cleaning method depends on
+      recommended (fire/damage risk). No explicit interval stated; annual
+      matches its once-per-year newsletter slot.
+    intervalMonths: 12
+  - itemType: stovetop-clean
+    name: >-
+      Stovetop cleaning — SPLIT 2026-07-28 from a combined "oven &
+      stovetop" item, per Brady: two functionally distinct appliances now
+      get their own line. Weekly Home Check, Week 2: method depends on
       type (gas/glass/electric coil); see the full email for per-type
-      steps. No explicit interval stated; annual matches its once-per-year
-      newsletter slot.
+      steps. Same annual cadence as oven-clean above.
     intervalMonths: 12
   - itemType: range-hood-filter
     name: >-

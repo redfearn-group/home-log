@@ -3,13 +3,36 @@
 # physical maintenance item, but the newsletter's own annual (New Year)
 # task, kept in the same tracker for consistency.
 items:
-  - itemType: records-review
+  - itemType: home-inventory-video
     name: >-
-      Home records & insurance review — Weekly Home Check, Week 1
-      (New Year kickoff): take a video home inventory room-by-room for
-      insurance purposes; review/update the home insurance policy (new
-      valuables, renovations, safety upgrades) and confirm coverage;
-      check home warranty coverage and expiration; review mortgage/loan
-      documents for rate/term changes; consider a fireproof folder for
-      storage.
+      Video home inventory — SPLIT 2026-07-28 from a combined "home
+      records & insurance review" item, per Brady: 4 genuinely distinct
+      paperwork/documentation tasks now each get their own line, so
+      completing one can't silently mark the others "done." Weekly Home
+      Check, Week 1 (New Year kickoff): take a video home inventory
+      room-by-room for insurance purposes; consider a fireproof folder
+      for storage.
+    intervalMonths: 12
+  - itemType: insurance-policy-review
+    name: >-
+      Home insurance policy review — SPLIT 2026-07-28 from a combined
+      "home records & insurance review" item, per Brady: see
+      home-inventory-video above for why these are now separate. Weekly
+      Home Check, Week 1: review/update the home insurance policy (new
+      valuables, renovations, safety upgrades) and confirm coverage.
+    intervalMonths: 12
+  - itemType: home-warranty-check
+    name: >-
+      Home warranty coverage check — SPLIT 2026-07-28 from a combined
+      "home records & insurance review" item, per Brady: see
+      home-inventory-video above for why these are now separate. Weekly
+      Home Check, Week 1: check home warranty coverage and expiration.
+    intervalMonths: 12
+  - itemType: mortgage-document-review
+    name: >-
+      Mortgage/loan document review — SPLIT 2026-07-28 from a combined
+      "home records & insurance review" item, per Brady: see
+      home-inventory-video above for why these are now separate. Weekly
+      Home Check, Week 1: review mortgage/loan documents for rate/term
+      changes.
     intervalMonths: 12

@@ -26,22 +26,41 @@ items:
       times to rinse. "Should be cleaned 1-2 times a year." Using the
       lower end (12mo) here.
     intervalMonths: 12
-  - itemType: caulk-grout-reseal
+  - itemType: caulk-reseal
     name: >-
-      Bathroom caulk & grout resealing — Weekly Home Check, Week 27:
-      remove old caulk, clean the area, apply new caulk and let cure 24
-      hrs. Seal tile grout lines with a penetrating grout sealer, let cure
-      24-48 hrs. No explicit interval stated; annual matches its
-      once-per-year newsletter slot.
+      Bathroom caulk resealing — SPLIT 2026-07-28 from a combined "caulk
+      & grout" item, per Brady: two different materials/tasks now get
+      their own line. Weekly Home Check, Week 27: remove old caulk, clean
+      the area, apply new caulk and let cure 24 hrs. No explicit interval
+      stated; annual matches its once-per-year newsletter slot.
+    intervalMonths: 12
+  - itemType: grout-reseal
+    name: >-
+      Bathroom tile grout resealing — SPLIT 2026-07-28 from a combined
+      "caulk & grout" item, per Brady: two different materials/tasks now
+      get their own line. Weekly Home Check, Week 27: seal tile grout
+      lines with a penetrating grout sealer, let cure 24-48 hrs. Same
+      annual cadence as caulk-reseal above.
     intervalMonths: 12
   - itemType: fixture-descale
     name: >-
-      Faucet aerators, showerheads & P-trap cleaning — Weekly Home Check,
-      Week 7: soak aerators/showerheads in vinegar (1 hr to overnight) to
-      dissolve mineral buildup, scrub, rinse, reattach. P-trap: shut off
-      water, unscrew and clean the trap, reassemble, check for leaks. No
-      explicit interval stated (more frequent if you have hard water);
-      annual matches its once-per-year newsletter slot.
+      Faucet aerator & showerhead descaling — SPLIT 2026-07-28 from a
+      combined "fixture descale & P-trap clean" item, per Brady: descaling
+      (mineral buildup) and P-trap cleaning (a physical clog/trap
+      teardown) are mechanically distinct jobs, so they now get separate
+      lines. Weekly Home Check, Week 7: soak aerators/showerheads in
+      vinegar (1 hr to overnight) to dissolve mineral buildup, scrub,
+      rinse, reattach. No explicit interval stated (more frequent if you
+      have hard water); annual matches its once-per-year newsletter slot.
+    intervalMonths: 12
+  - itemType: p-trap-clean
+    name: >-
+      P-trap cleaning — SPLIT 2026-07-28 from a combined "fixture
+      descale & P-trap clean" item, per Brady: a mechanically distinct
+      job from descaling (this is a physical teardown, not mineral
+      removal), so it now gets its own line. Weekly Home Check, Week 7:
+      shut off water, unscrew and clean the trap, reassemble, check for
+      leaks. Same annual cadence as fixture-descale above.
     intervalMonths: 12
   - itemType: water-pressure-check
     name: >-
