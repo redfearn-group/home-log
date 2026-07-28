@@ -1,5 +1,11 @@
 # Sourced from Kyshawn's Weekly Home Check newsletter (Home@weeklyhomecheck.com),
 # full 52-week archive extracted from Brady's Gmail on 2026-07-23.
+#
+# CONFIRMED 2026-07-28, per Brady: countertops are quartz (engineered
+# stone), not natural stone. Quartz is non-porous and never needs sealing,
+# so the newsletter's Week 50 "countertop-sealing" item was removed
+# entirely rather than kept with a long due date — it will never apply to
+# this kitchen.
 items:
   - itemType: dishwasher-clean
     name: >-
@@ -72,15 +78,3 @@ items:
       hood is vented or recirculating (run the fan and check for a metal
       duct vs. air blowing back into the room).
     intervalMonths: 6
-  - itemType: countertop-sealing
-    name: >-
-      Seal natural stone (granite) countertops — Weekly Home Check, Week
-      50 (2025 version; the 2024 version of this same week slot covered
-      toilet tank cleaning instead, so the newsletter's week-to-topic
-      mapping isn't fully stable year to year. Flagging in case you have
-      laminate or quartz instead, which doesn't need sealing at all).
-      Test: drip water on the stone, and if it darkens within 1-2 minutes
-      it needs resealing. Apply sealer, let absorb 10-15 min, buff dry,
-      avoid heavy use for 24 hrs. "Every 6-12 months for high-use
-      kitchens."
-    intervalMonths: 12

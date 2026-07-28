@@ -1,6 +1,21 @@
 tasks:
   - id: 1
-    title: Document how many smoke alarms/CO detectors/extinguishers are on hand and where
-    notes: Added 2026-07-23 from Weekly Home Check's Week 29 email. Count and locations not yet on file.
+    title: Document how many smoke alarms/CO detectors are on hand and where
+    notes: >-
+      Added 2026-07-23 from Weekly Home Check's Week 29 email. PARTIALLY
+      RESOLVED 2026-07-28, per Brady: fire extinguisher count/locations
+      are confirmed (2 total, one basement + one garage — see
+      schedule.yaml's extinguisher-check item and task #2 below), but
+      smoke alarm and CO detector count is still unknown — Brady has them
+      "where required" but doesn't recall the exact count.
     status: open
     createdDate: '2026-07-23'
+  - id: 2
+    title: Fire extinguisher count/locations confirmed
+    notes: >-
+      Split out 2026-07-28 from task #1 above, already resolved: 2 fire
+      extinguishers on hand, one in the basement and one in the garage.
+      See schedule.yaml's extinguisher-check item.
+    status: done
+    createdDate: '2026-07-28'
+    completedDate: '2026-07-28'

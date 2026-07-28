@@ -1,0 +1,22 @@
+# Added 2026-07-28, per Brady. NOT part of the Weekly Home Check newsletter
+# sourcing used elsewhere in this repo — that 52-week archive doesn't cover
+# radon at all. Intervals below are generic EPA/industry guidance, same
+# citation caveat as water-heater's anode-rod-inspection item.
+items:
+  - itemType: radon-fan-inspection
+    name: >-
+      Radon vent fan check — confirm the inline fan is running (listen/
+      feel for vibration at the exterior exhaust pipe, or check the
+      manometer/gauge on the fan housing if present). Vent fans typically
+      run continuously and can fail silently; EPA guidance recommends a
+      visible/audible check every few months. Not covered by Weekly Home
+      Check — generic industry guidance.
+    intervalMonths: 4
+  - itemType: radon-retest
+    name: >-
+      Radon level retest — EPA recommends retesting every 2 years, or
+      sooner after any renovation, foundation work, or HVAC change that
+      could affect airflow/pressure in the home. Use a short-term or
+      long-term test kit, or a continuous digital monitor if one is
+      installed. Not covered by Weekly Home Check — generic EPA guidance.
+    intervalMonths: 24

@@ -1,6 +1,13 @@
 tasks:
   - id: 1
     title: Note roof material, approximate age, and last known inspection
-    notes: Added 2026-07-23
-    status: open
+    notes: >-
+      Added 2026-07-23. TENTATIVELY RESOLVED 2026-07-28, per Brady's HOA
+      answer: reading the roof as HOA-maintained exterior structure, same
+      as the driveway/landscaping. FLAGGED: Brady named driveways/steps/
+      landscaping explicitly but not the roof specifically — confirm this
+      reading is correct; reopen this task if the roof is actually still
+      an owner responsibility in this HOA.
+    status: done
     createdDate: '2026-07-23'
+    completedDate: '2026-07-28'

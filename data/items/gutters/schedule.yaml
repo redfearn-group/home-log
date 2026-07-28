@@ -1,14 +1,12 @@
 # Sourced from Kyshawn's Weekly Home Check newsletter (Home@weeklyhomecheck.com),
 # full 52-week archive extracted from Brady's Gmail on 2026-07-23.
-items:
-  - itemType: gutter-inspection
-    name: >-
-      Gutter & downspout inspection/cleaning — Weekly Home Check, Week 45:
-      confirm water flows freely and is directed away from the
-      foundation. The newsletter explicitly recommends NOT doing this
-      yourself unless comfortable on a ladder. Hire a professional and
-      get multiple quotes. For light cleaning without a ladder, a
-      leaf-blower/hose/shop-vac gutter attachment works. No fixed interval
-      stated ("as needed throughout the year," done as fall cleanup);
-      annual here as a minimum check-in.
-    intervalMonths: 12
+#
+# RESCOPED 2026-07-28, per Brady: the HOA maintains everything outside the
+# walls of the home, which reads as covering gutters/downspouts as part of
+# the building's exterior structure. Removed the schedule item rather than
+# leave it showing permanently "never logged" for an inspection Brady
+# isn't the one doing. FLAGGED: this is Claude's interpretation of a
+# broader HOA statement, not something Brady named explicitly for gutters
+# — confirm or correct if gutters are actually still an owner
+# responsibility in this HOA.
+items: []

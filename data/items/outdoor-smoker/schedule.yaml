@@ -1,0 +1,24 @@
+# Sourced from Kyshawn's Weekly Home Check newsletter (Home@weeklyhomecheck.com),
+# full 52-week archive extracted from Brady's Gmail on 2026-07-23.
+#
+# RESCOPED 2026-07-28, per Brady: this item was originally "Lawn & outdoor
+# equipment," but the HOA maintains all landscaping outside the walls of
+# the home (rock beds/shrubs immediately around the house, grass to the
+# curb) — there is no mower, no lawn of Brady's own to prep, and no patio
+# furniture. The only thing actually stored outside is a smoker. Renamed
+# the item and folder from lawn-equipment to outdoor-smoker, and dropped
+# every schedule line that doesn't apply (mower-tuneup, lawn-spring-prep,
+# mower-winterize, patio-furniture-care) rather than leaving them to show
+# permanently "never logged" for equipment that doesn't exist.
+items:
+  - itemType: smoker-clean
+    name: >-
+      Smoker deep clean — RENAMED 2026-07-28 from grill-clean, per Brady:
+      the actual outdoor cooking equipment is a smoker, not a grill.
+      Weekly Home Check, Week 37 (end-of-summer): scrub grates, soak
+      removable parts (grates/flavorizers/grease traps) in hot soapy
+      water + degreaser, heat and scrub the interior with a degreaser
+      and stainless steel brush, rinse, clean the exterior with a
+      stainless steel cleaner wiping with the grain. No explicit
+      interval; annual matches its once-per-year newsletter slot.
+    intervalMonths: 12

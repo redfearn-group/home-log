@@ -40,9 +40,9 @@ items:
     status: active
     photo: null
   - slug: sprinkler-system
-    name: Sprinkler system
+    name: HOA irrigation system (neighborhood-wide)
     category: sprinkler
-    location: null
+    location: Common areas across the neighborhood
     brand: null
     model: null
     serialNumber: null
@@ -88,7 +88,7 @@ items:
     name: Washing machine & dryer
     category: laundry
     location: null
-    brand: null
+    brand: LG
     model: null
     serialNumber: null
     installDate: null
@@ -137,7 +137,7 @@ items:
   - slug: electrical-panel
     name: Electrical panel & GFCI outlets
     category: electrical
-    location: null
+    location: Basement
     brand: null
     model: null
     serialNumber: null
@@ -154,10 +154,10 @@ items:
     installDate: null
     status: active
     photo: null
-  - slug: lawn-equipment
-    name: Lawn & outdoor equipment
-    category: lawn
-    location: null
+  - slug: outdoor-smoker
+    name: Smoker
+    category: outdoor-cooking
+    location: Stored outside
     brand: null
     model: null
     serialNumber: null
@@ -208,6 +208,19 @@ items:
     name: Emergency preparedness kit
     category: emergency
     location: null
+    brand: null
+    model: null
+    serialNumber: null
+    installDate: null
+    status: active
+    photo: null
+  # Added 2026-07-28, per Brady: not part of the Weekly Home Check
+  # newsletter sourcing (that archive covers none of this) — home has a
+  # radon venting system with a monitor, both in the basement.
+  - slug: radon-mitigation
+    name: Radon mitigation system
+    category: radon
+    location: Basement
     brand: null
     model: null
     serialNumber: null

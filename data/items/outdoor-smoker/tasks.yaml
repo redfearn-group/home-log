@@ -1,0 +1,17 @@
+tasks:
+  - id: 1
+    title: List actual lawn/outdoor equipment on hand (mower brand/model, grill type, etc.)
+    notes: >-
+      Added 2026-07-23. RESOLVED 2026-07-28, per Brady: no mower or lawn
+      equipment at all — the HOA maintains all landscaping outside the
+      walls of the home. No patio furniture either. The only thing stored
+      outside is a smoker (not a grill) — item renamed from lawn-equipment
+      to outdoor-smoker and schedule.yaml trimmed to just smoker-clean.
+    status: done
+    createdDate: '2026-07-23'
+    completedDate: '2026-07-28'
+  - id: 2
+    title: Confirm smoker brand/model
+    notes: Split out 2026-07-28 from task #1 above — still needed before brand/model fields on this item mean anything.
+    status: open
+    createdDate: '2026-07-28'

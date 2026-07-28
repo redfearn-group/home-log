@@ -1,6 +1,10 @@
 tasks:
   - id: 1
-    title: Log electrical panel location and breaker labels
-    notes: Added 2026-07-23
+    title: Log electrical panel breaker labels
+    notes: >-
+      Added 2026-07-23 as "Log electrical panel location and breaker
+      labels." PARTIALLY RESOLVED 2026-07-28, per Brady: location is the
+      basement (see items.yaml). Breaker labels themselves still not on
+      file.
     status: open
     createdDate: '2026-07-23'

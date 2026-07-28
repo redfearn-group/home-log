@@ -2,6 +2,14 @@
 # full 52-week archive extracted from Brady's Gmail on 2026-07-23. Replaces
 # the earlier generic placeholder. The newsletter does cover sprinklers,
 # it just wasn't found in the first, narrower keyword-only search pass.
+#
+# RESCOPED 2026-07-28, per Brady: this is the HOA-wide common-area
+# irrigation system, not just his own home's zones — he's tracking it in
+# his capacity as HOA president, given ongoing neighborhood problems with
+# watering schedules and effectiveness. The two items below (spring
+# startup/fall winterization) still apply generically, but a system this
+# size likely needs its actual zone layout, controller, and known problem
+# areas logged before this is genuinely useful — see the open task.
 items:
   - itemType: spring-startup
     name: >-

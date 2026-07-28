@@ -1,0 +1,9 @@
+tasks:
+  - id: 1
+    title: Fill in radon system brand/model, install date, and last known test result
+    notes: >-
+      Added 2026-07-28, per Brady — system and monitor are both in the
+      basement, but brand/model/install date and the most recent radon
+      reading aren't on file yet.
+    status: open
+    createdDate: '2026-07-28'

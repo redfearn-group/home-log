@@ -1,6 +1,11 @@
 tasks:
   - id: 1
     title: Note driveway/patio material (asphalt/concrete/pavers) for the right upkeep steps
-    notes: Added 2026-07-23
-    status: open
+    notes: >-
+      Added 2026-07-23. RESOLVED 2026-07-28, per Brady: this is HOA's
+      responsibility, not Brady's — the HOA maintains driveways, exterior
+      steps, and all landscaping outside the walls of the home. Schedule
+      items removed accordingly (see schedule.yaml).
+    status: done
     createdDate: '2026-07-23'
+    completedDate: '2026-07-28'
