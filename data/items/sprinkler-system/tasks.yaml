@@ -1,6 +1,25 @@
 tasks:
   - id: 1
     title: Document zone layout, controller brand/model, and backflow preventer details
-    notes: Placeholder item created 2026-07-23. Needs real details before the schedule/history mean anything.
+    notes: >-
+      Placeholder item created 2026-07-23. UPDATED 2026-07-28, per Brady:
+      this is the HOA-wide common-area system (4 separate controllers) —
+      he's putting together a map of the zone layout to upload. Holding
+      off on restructuring schedule.yaml into per-zone/per-controller
+      items until that map is in hand, rather than guessing at a
+      structure. Once uploaded: split this system's schedule/watch-list
+      by controller and/or zone so a problem in one area doesn't get lost
+      in an item covering the whole neighborhood.
     status: open
     createdDate: '2026-07-23'
+  - id: 2
+    title: Track recurring HOA irrigation problems — dead spots, schedule/timing complaints, equipment failures, water waste/cost
+    notes: >-
+      Added 2026-07-28, per Brady, in his capacity as HOA president: these
+      4 problem categories are what he wants visibility into across the
+      neighborhood's system. No specific incidents logged yet — this is a
+      placeholder for the kind of issue that should go on watch-list.yaml
+      once real ones come in (which controller/zone, when, what
+      happened), rather than tracking it only as a vague standing concern.
+    status: open
+    createdDate: '2026-07-28'
