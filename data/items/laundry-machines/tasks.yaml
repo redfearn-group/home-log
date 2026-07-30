@@ -4,7 +4,7 @@ tasks:
     notes: >-
       Added 2026-07-23 as "Fill in washer/dryer brand, model, and install
       date." PARTIALLY RESOLVED 2026-07-28, per Brady: brand is LG,
-      front-load HE (both washer and dryer) — see items.yaml. Model
+      front-load HE (both washer and dryer), see items.yaml. Model
       number and install date still needed from the nameplates.
     status: open
     createdDate: '2026-07-23'

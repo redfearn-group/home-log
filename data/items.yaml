@@ -215,7 +215,7 @@ items:
     status: active
     photo: null
   # Added 2026-07-28, per Brady: not part of the Weekly Home Check
-  # newsletter sourcing (that archive covers none of this) — home has a
+  # newsletter sourcing (that archive covers none of this). Home has a
   # radon venting system with a monitor, both in the basement.
   - slug: radon-mitigation
     name: Radon mitigation system

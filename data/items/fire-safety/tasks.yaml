@@ -4,9 +4,9 @@ tasks:
     notes: >-
       Added 2026-07-23 from Weekly Home Check's Week 29 email. PARTIALLY
       RESOLVED 2026-07-28, per Brady: fire extinguisher count/locations
-      are confirmed (2 total, one basement + one garage — see
+      are confirmed (2 total, one basement + one garage, see
       schedule.yaml's extinguisher-check item and task #2 below), but
-      smoke alarm and CO detector count is still unknown — Brady has them
+      smoke alarm and CO detector count is still unknown. Brady has them
       "where required" but doesn't recall the exact count.
     status: open
     createdDate: '2026-07-23'
